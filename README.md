@@ -13,6 +13,7 @@ When you interact with the remote, a document is added to the database (firestor
 ## How to make it work
 You will need python and a firebase project to enable this software to solve your presenting troubles.
 - You can download and install python [here](https://www.python.org/downloads/)
+- Install the requirements by running `pip install -r .\requirements.txt`
 - Create a firebase project from the [console](https://console.firebase.google.com/) and then download the admin sdk credentials from the project settings as credentials.json in the root of the directory
 - Just run `python remote.py` on the device which wants to remotely control the presentation
 - Run `python receiver.py` on the host machine i.e. where the keys needs to be simulated
