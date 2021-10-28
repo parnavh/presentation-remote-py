@@ -14,3 +14,7 @@ venv.bak/
 
 credentials*
 test*
+
+build
+dist
+*.spec
